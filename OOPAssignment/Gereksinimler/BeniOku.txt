@@ -1,4 +1,5 @@
-﻿
+﻿Beni okuma !!!
+
 ÖDEV TANIMI
 ---------------
 	Bir harita(Surface) ve harita üzerindeki araçlardan(Car) oluşan bir oyun kodlayacağız.
