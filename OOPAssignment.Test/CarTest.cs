@@ -1,5 +1,7 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using OOPAssignment.Classes;
+using OOPAssignment.Interfaces;
 
 namespace OOPAssignment.Test
 {
@@ -60,7 +62,7 @@ namespace OOPAssignment.Test
             commandExecutor.ExecuteCommand("M");
 
             // Assert
-            Assert.AreEqual("1 3", string.Concat(car.Coordinates.X, " ", car.Coordinates.Y));
+            Assert.AreEqual("1 3", /*string.Concat(car.Id, " ", car.Direction)*/string.Concat(car.Coordinates.X, " ", car.Coordinates.Y));
         }
 
         [TestMethod]
